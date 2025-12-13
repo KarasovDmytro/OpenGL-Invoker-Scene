@@ -1,0 +1,17 @@
+.vs/
+out/
+x64/
+Debug/
+Release/
+*.user
+*.aps
+*.opendb
+*.db
+*.ipch
+
+# Ігноруємо скомпільовані файли
+*.exe
+*.dll
+*.obj
+*.pdb
+*.ilk

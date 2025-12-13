@@ -1,0 +1,78 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Исходные файлы">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Файлы заголовков">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="Файлы ресурсов">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Исходные файлы\src">
+      <UniqueIdentifier>{d01e8eae-a914-48a7-8ed2-19df10a6706a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Исходные файлы\include">
+      <UniqueIdentifier>{4f63c436-8425-4739-8278-ad8c525a173e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Исходные файлы\assets">
+      <UniqueIdentifier>{f95db9ab-5549-4fb5-9cb0-f8a6608ded80}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Исходные файлы\assets\shaders">
+      <UniqueIdentifier>{a7f94b15-4098-4b93-9a6d-454abfa863ef}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="packages.config" />
+    <None Include="assets\shaders\shader.fs">
+      <Filter>Исходные файлы\assets\shaders</Filter>
+    </None>
+    <None Include="assets\shaders\shader.vs">
+      <Filter>Исходные файлы\assets\shaders</Filter>
+    </None>
+    <None Include="assets\shaders\lamp.fs">
+      <Filter>Исходные файлы\assets\shaders</Filter>
+    </None>
+    <None Include="assets\shaders\lamp.vs">
+      <Filter>Исходные файлы\assets\shaders</Filter>
+    </None>
+    <None Include="assets\shaders\skybox.fs">
+      <Filter>Исходные файлы\assets\shaders</Filter>
+    </None>
+    <None Include="assets\shaders\skybox.vs">
+      <Filter>Исходные файлы\assets\shaders</Filter>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\..\GLAD\src\glad.c">
+      <Filter>Исходные файлы</Filter>
+    </ClCompile>
+    <ClCompile Include="src\main.cpp">
+      <Filter>Исходные файлы\src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\stb_image_impl.cpp">
+      <Filter>Исходные файлы\src</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="include\shader_m.h">
+      <Filter>Исходные файлы\include</Filter>
+    </ClInclude>
+    <ClInclude Include="include\camera.h">
+      <Filter>Исходные файлы\include</Filter>
+    </ClInclude>
+    <ClInclude Include="include\mesh.h">
+      <Filter>Исходные файлы\include</Filter>
+    </ClInclude>
+    <ClInclude Include="include\model.h">
+      <Filter>Исходные файлы\include</Filter>
+    </ClInclude>
+    <ClInclude Include="include\sphere_gen.h">
+      <Filter>Исходные файлы\include</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
