@@ -9,9 +9,7 @@ Release/
 *.db
 *.ipch
 
-# Ігноруємо скомпільовані файли
 *.exe
 *.dll
-*.obj
 *.pdb
 *.ilk
